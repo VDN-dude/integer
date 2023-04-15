@@ -1,8 +1,12 @@
-public class IntegerReader {
+package IntegerWorker;
+
+class IntegerWrapper {
     private final Integer integer;
 
-    public IntegerReader(Integer integer) {
+    public IntegerWrapper(Integer integer) {
+
         this.integer = integer;
+
     }
 
     public Integer getInteger() {
